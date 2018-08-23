@@ -1,5 +1,4 @@
 const express = require('express');
-const qiniu = require('qiniu');
 const app = express();
 
 app.use('/', (req, res, next) => res.send('Hello World!') && next());
